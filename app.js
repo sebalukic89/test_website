@@ -18,6 +18,13 @@ closeBtn.addEventListener('click', () => {
   // Remove the 3 elements shown when clicking on login
   hiddenListElement.classList.add('hidden');
   hiddenListElement.classList.remove('show-hidden');
+
+  // Scroll to the top of the page
+  window.scroll({
+    top: 0,
+    left: 0,
+    behavior: 'smooth',
+  });
 });
 
 login.addEventListener('click', () => {
