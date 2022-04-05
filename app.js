@@ -1,10 +1,8 @@
 const openBtn = document.querySelector('.open-btn');
 const closeBtn = document.querySelector('.close-btn');
 const login = document.querySelector('#login');
-const bottomOfPage = document.querySelector('#bottom');
 const nav = document.querySelector('.nav');
 const hiddenListElement = document.querySelector('ul div');
-const rootElement = document.documentElement;
 
 // Open the sidebar
 openBtn.addEventListener('click', () => {
